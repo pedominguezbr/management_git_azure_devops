@@ -61,9 +61,9 @@ def get_git_ref(dfRepo,user,tokenDevops,projectName):
     return defRepoBranch
 
 def Procesar():
-    user="aksdemo1pd"
-    tokenDevops="o6faoklcnymvdllhqyulp5acimmwra5o456hbm22vasy312333"
-    projectName="demo1"
+    user="devopsazure"
+    tokenDevops="0000fdsfd212fdf00000011111111"
+    projectName="myproject"
 
     urlRepos=f"https://dev.azure.com/{user}/{projectName}/_apis/git/repositories?api-version=6.0"
     dfRepo = get_git_repos(user,tokenDevops,urlRepos,fileNameResult="listarepos.txt")
